@@ -1,0 +1,456 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{ outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea { font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+/* Это база не меняется*/
+
+.based {
+    position: relative;
+    width: 1219px;
+    height: 3314px;
+    background: #FFFFFF;
+}
+
+.header {
+    position: absolute;
+    width: 1219px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    background: #007765;
+}
+
+.logo {
+    position: absolute;
+    width: 184px;
+    height: 45px;
+    left: 55px;
+    top: 20px;
+}
+
+.vector {
+    position: absolute;
+    left: 0.02%;
+    right: 0%;
+    top: 0%;
+    bottom: -0.09%;
+    background: #FFFFFF;
+}
+
+.vectorO {
+    position: absolute;
+    left: 0.02%;
+    right: 0%;
+    top: 0%;
+    bottom: -0.09%;
+    background: #FFFFFF;
+}
+
+.problem {
+    position: absolute;
+width: 129px;
+height: 29px;
+left: 741px;
+top: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+
+.one {
+    position: absolute;
+width: 7px;
+height: 29px;
+left: 878px;
+top: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+
+.PiedPiperCoin {
+    position: absolute;
+width: 154px;
+height: 29px;
+left: 893px;
+top: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+
+.two{
+    position: absolute;
+width: 7px;
+height: 29px;
+left: 1055px;
+top: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+
+.team {
+    position: absolute;
+width: 95px;
+height: 29px;
+left: 1070px;
+top: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+
+.pNet {
+    position: absolute;
+width: 1219px;
+height: 83px;
+left: 0px;
+top: 160px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.image {
+    position: absolute;
+width: 1219px;
+height: 403px;
+left: 0px;
+top: 84px;
+background-image: url(../img/image-15.png);
+background-position: center;
+background-attachment: local;
+}
+
+.theProblem {
+    position: absolute;
+width: 1219px;
+height: 719px;
+left: 0px;
+top: 487px;
+
+background: #EEEEEE;
+}
+
+.tP {
+    position: absolute;
+width: 1107px;
+height: 75px;
+left: 55px;
+top: 35px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+
+.text {
+    position: absolute;
+width: 1110px;
+height: 488px;
+left: 55px;
+top: 126px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+}
+
+.img {
+position: absolute;
+width: 1219px;
+height: 483px;
+left: 0px;
+top: 1206px;
+background-image: url(../img/image-14.png);
+}
+
+.together {
+    position: absolute;
+width: 893px;
+height: 228px;
+left: 163px;
+top: 150px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.PPC {
+    position: absolute;
+width: 1219px;
+height: 604px;
+left: 0px;
+top: 1689px;
+
+background: #FFFFFF;
+}
+
+.h2 {
+    position: absolute;
+width: 1110px;
+height: 75px;
+left: 55px;
+top: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+
+.p2 {
+    position: absolute;
+width: 930px;
+height: 110px;
+left: 218px;
+top: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+
+.p3 {
+    position: relative;;
+width: 1110px;
+height: 223px;
+left: 55px;
+top: 400px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+
+.teamP {
+    position: absolute;
+width: 1219px;
+height: 845px;
+left: 0px;
+top: 2293px;
+
+background: #EEEEEE;
+}
+
+.h3 {
+    position: absolute;
+width: 1110px;
+height: 75px;
+left: 55px;
+top: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+
+.member1 {
+    position: absolute;
+width: 350px;
+height: 283px;
+left: 55px;
+top: 150px;
+}
+
+.imgMember1 {
+    position: absolute;
+width: 168px;
+height: 168px;
+left: 146px;
+top: 0px;
+background-image: url(../img/image-13.png);
+}
+
+.name1 {
+    position: absolute;
+width: 199px;
+height: 29px;
+left: 132px;
+top: 188px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #007765;
+}
+
+.prof1 {
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    left: 170px;
+    top: 218px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.member2 {
+    position: absolute;
+width: 350px;
+height: 283px;
+left: 435px;
+top: 150px;
+}
+
+.imgMember2 {
+    position: absolute;
+width: 168px;
+height: 168px;
+left: 150px;
+top: 0px;
+background-image: url(../img/image-1.png);
+}
+
+.name2 {
+    position: absolute;
+width: 350px;
+height: 29px;
+left: 435px;
+top: 188px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+
+.prof2 {
+    position: absolute;
+width: 350px;
+height: 22px;
+left: 435px;
+top: 218px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+}
