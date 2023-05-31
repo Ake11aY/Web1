@@ -1,3 +1,15 @@
+@import url(../fonts/Roboto-Black.ttf);
+@import url(../fonts/Roboto-BlackItalic.ttf);
+@import url(../fonts/Roboto-Bold.ttf);
+@import url(../fonts/Roboto-BoldItalic.ttf);
+@import url(../fonts/Roboto-Italic.ttf);
+@import url(../fonts/Roboto-Light.ttf);
+@import url(../fonts/Roboto-LightItalic.ttf);
+@import url(../fonts/Roboto-Medium.ttf);
+@import url(../fonts/Roboto-MediumItalic.ttf);
+@import url(../fonts/Roboto-Regular.ttf);
+@import url(../fonts/Roboto-Thin.ttf);
+@import url(../fonts/Roboto-ThinItalic.ttf);
 *{
     padding: 0%;
     margin: 0%;
@@ -102,7 +114,7 @@ height: 29px;
 left: 878px;
 top: 28px;
 
-font-family: 'Roboto';
+font-family: url(D:\WEB\2023\FirstProject\FirstProject\fonts\Roboto-Black.ttf);
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -119,7 +131,7 @@ height: 29px;
 left: 893px;
 top: 29px;
 
-font-family: 'Roboto';
+font-family: ;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
